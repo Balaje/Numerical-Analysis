@@ -3,7 +3,7 @@ Numerical-Analysis
 
 This repository contains all the Algorithms that is used in Numerical Analysis
 
-- **Roots Folder**
+- **Roots**
   1. Bisection Method
   2. Fixed Point Method 
   3. Newton Method
@@ -14,6 +14,9 @@ This repository contains all the Algorithms that is used in Numerical Analysis
 
 - **Interpolation**
   1. Lagrange Method
+  2. Newton's Divided Difference method
+  3. Newton's Forward Difference Method
+  4. Newton's Backward difference method
 
 - **System of Equations (Homogeneous)**
   1. Jacobi Method
