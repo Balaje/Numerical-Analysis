@@ -1,4 +1,4 @@
-%Program to illustrate Newton's method to solve a system of Non-Linear equations
+% Program to illustrate Newton's method to solve a system of Non-Linear equations
 
 clear
 clc
