@@ -1,4 +1,4 @@
-% Program to demonstrate Newton's divided difference Method
+% Program to demonstrate Newton's forward difference Method
 clc
 syms x;
 syms s;
