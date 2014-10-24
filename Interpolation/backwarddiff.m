@@ -66,7 +66,7 @@ poly = vpa(collect(sum), 4);
 disp(poly);
 
 %Plot the polynomial
-x = [0:0.5:10];
+x = [0:0.5:5];
 y = polyval(sym2poly(poly), x);
 plot(x,y);
 grid on;
