@@ -4,7 +4,7 @@ syms x;
 syms s;
 
 fprintf('\n\n\tUse only for equally spaced data points');
-n = input('Enter the number of data points: ');
+n = input('\nEnter the number of data points: ');
 
 %Initialize data point array.
 xi = zeros(1,n);
@@ -35,6 +35,13 @@ if(choice == 2)
 end
 
 h = xi(2) - xi(1);
+%Check if the data points are equally spaced.
+for i=2:n-1
+  if(xi(i+1)-xi(i) ~= h)
+    error('Data Points are not equally spaced');
+  end
+end
+
 %Compute the divided difference D(i,j);
 D = zeros(n,n);
 D(:,1) = fxi';
